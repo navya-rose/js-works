@@ -1,0 +1,27 @@
+
+//common divisor of two number
+
+var num1=24
+var num2 =12
+var min=0
+
+if(num1<num2){
+     min=num1
+    
+}
+else{
+    min=num2
+}
+
+
+ var i=1
+
+while(i<100){
+    if(num1%i==0 && num2%i==0){
+        console.log(i);
+        
+    }
+    i++
+
+}
+  
